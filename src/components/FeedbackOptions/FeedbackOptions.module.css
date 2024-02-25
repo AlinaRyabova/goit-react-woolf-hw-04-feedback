@@ -1,0 +1,20 @@
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: #69d4d2;
+  box-shadow: background-color 0.3s ease, transform 0.3s ease;
+}
+.options button:hover {
+  background-color: #85ee48;
+  transform: scale(1.05);
+}
